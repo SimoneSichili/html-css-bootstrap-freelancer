@@ -96,7 +96,6 @@
 
 /* contact me */
 #contact-me {
-  height: 500px;
   padding: 80px 0;
 }
 
@@ -105,6 +104,11 @@
   font-size: 50px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.form {
+  height: 400px;
+  background-color: #2C3E50;
 }
 /* /contact me */
 
