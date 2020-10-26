@@ -58,6 +58,7 @@
 }
 
 #portfolio h2 {
+  color: #2C3E50;
   font-size: 50px;
   text-align: center;
   text-transform: uppercase;
@@ -93,4 +94,58 @@
 }
 /* /about */
 
+/* contact me */
+#contact-me {
+  height: 500px;
+  padding: 80px 0;
+}
+
+#contact-me h2 {
+  color: #2C3E50;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* /contact me */
+
 /* END MAIN */
+
+/* START FOOTER */
+
+/* footer top */
+#footer-top {
+  padding: 60px 0;
+  background-color: #3A546D;
+}
+
+#footer-top h4 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#footer-top p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+/* /footer top */
+
+/* footer bottom */
+#footer-bottom {
+  padding: 20px 0;
+  background-color: #2C3E50;
+}
+
+#footer-bottom p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+/* footer bottom */
+
+
+/* END FOOTER */
