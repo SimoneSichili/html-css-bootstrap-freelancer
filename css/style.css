@@ -35,16 +35,62 @@
 /* jumbotron */
 .jumbotron {
   background-color: #1ABC9C;
-  padding: 100px;
+  padding: 100px 0;
+  margin-bottom: 0;
   color: white;
   text-align: center;
   text-transform: uppercase;
 }
 
 .jumbotron img {
-  height: 300px;
+  height: 200px;
   border-radius: 50%;
 }
 /* /jumbotron */
 
 /* END HEADER */
+
+/* START MAIN */
+
+/* portfolio */
+#portfolio {
+  padding: 100px 0;
+}
+
+#portfolio h2 {
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#portfolio [class*="col-"] {
+  padding-top: 30px;
+}
+
+#portfolio img {
+  width: 100%;
+  border-radius: 20px;
+}
+/* /portfolio */
+
+/* about */
+#about {
+  padding: 80px 0;
+  background-color: #1ABC9C;
+}
+
+#about h2 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* /about */
+
+/* END MAIN */
