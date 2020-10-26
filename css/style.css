@@ -1,0 +1,40 @@
+/* START HEADER */
+
+/* nav */
+.navbar-default {
+  background-color: #2C3E50;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: grey;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: grey;
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: grey;
+}
+/* /nav */
+
+/* jumbotron */
+#jumbotron {
+  height: 700px;
+  background-color: #1ABC9C;
+}
+/* /jumbotron */
+
+/* END HEADER */
