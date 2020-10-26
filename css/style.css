@@ -8,6 +8,7 @@
 
 .navbar-default .navbar-brand {
   color: white;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -17,6 +18,7 @@
 
 .navbar-default .navbar-nav>li>a {
   color: white;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -31,9 +33,17 @@
 /* /nav */
 
 /* jumbotron */
-#jumbotron {
-  height: 700px;
+.jumbotron {
   background-color: #1ABC9C;
+  padding: 100px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.jumbotron img {
+  height: 300px;
+  border-radius: 50%;
 }
 /* /jumbotron */
 
