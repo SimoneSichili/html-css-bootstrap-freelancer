@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <!-- Style CSS -->
@@ -13,7 +15,7 @@
 <body>
   <!-- nav e jumbotron -->
   <header>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top navbar_custom">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -33,12 +35,15 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <div class="jumbotron">
-      <div class="container">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT7csvPWMdfAHEAnhIRTdJKCK5SPK4cHfskow&usqp=CAU" alt="Persona Placeholder">
-        <h1>Start Bootstrap</h1>
-        <h3>Graphic Artist - Web Designer - Illustrator</h3>
+    <div class="jumbotron_custom">
+      <img src="img/avatar.svg" alt="Immagine dell'avatar">
+      <h1>Start Bootstrap</h1>
+      <div class="my_divider text-center">
+        <div class="short_divider"></div>
+        <i class="fas fa-star"></i>
+        <div class="short_divider"></div>
       </div>
+      <h3>Graphic Artist - Web Designer - Illustrator</h3>
     </div>
   </header>
   <!-- /nav e jumbotron -->
@@ -46,27 +51,62 @@
   <!-- corpo del sito -->
   <main>
     <!-- portfolio -->
-    <div id="portfolio">
+    <div id="portfolio" class="text_blue">
       <h2>Portfolio</h2>
+      <div class="my_divider text-center">
+        <div class="short_divider"></div>
+        <i class="fas fa-star"></i>
+        <div class="short_divider"></div>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6">
-            <img src="https://www.realproject.it/wp-content/uploads/2019/11/placeholder.png" alt="Immagine portfolio">
+            <div class="item_box">
+              <img src="img/cabin.png" alt="Immagine casa">
+              <div class="overlay">
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <img src="https://www.realproject.it/wp-content/uploads/2019/11/placeholder.png" alt="Immagine portfolio">
+            <div class="item_box">
+              <img src="img/cake.png" alt="Immagine torta">
+              <div class="overlay">
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <img src="https://www.realproject.it/wp-content/uploads/2019/11/placeholder.png" alt="Immagine portfolio">
+            <div class="item_box">
+              <img src="img/circus.png" alt="Immagine circo">
+              <div class="overlay">
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <img src="https://www.realproject.it/wp-content/uploads/2019/11/placeholder.png" alt="Immagine portfolio">
+            <div class="item_box">
+              <img src="img/game.png" alt="Immagine joystick">
+              <div class="overlay">
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <img src="https://www.realproject.it/wp-content/uploads/2019/11/placeholder.png" alt="Immagine portfolio">
+            <div class="item_box">
+              <img src="img/safe.png" alt="Immagine cassaforte">
+              <div class="overlay">
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <img src="https://www.realproject.it/wp-content/uploads/2019/11/placeholder.png" alt="Immagine portfolio">
+            <div class="item_box">
+              <img src="img/submarine.png" alt="Immagine sottomarino">
+              <div class="overlay">
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -75,14 +115,21 @@
 
     <!-- about -->
     <div id="about">
-      <div class="container">
-        <h2>About</h2>
-        <div class="row">
-          <div class="col-xs-12 col-md-6 col-lg-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
-          <div class="col-xs-12 col-md-6 col-lg-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <h2>About</h2>
+      <div class="my_divider text-center">
+        <div class="short_divider"></div>
+        <i class="fas fa-star"></i>
+        <div class="short_divider"></div>
+      </div>
+      <div class="wrapper_60">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -90,13 +137,18 @@
     <!-- /about -->
 
     <!-- contact me -->
-    <div id="contact-me">
+    <div id="contact-me" class="text_blue">
       <h2>Contact Me</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="form">
-
+      <div class="my_divider text-center">
+        <div class="short_divider"></div>
+        <i class="fas fa-star"></i>
+        <div class="short_divider"></div>
+      </div>
+      <div class="wrapper_60">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="form"></div>
             </div>
           </div>
         </div>
