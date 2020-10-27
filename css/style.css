@@ -71,6 +71,11 @@ body {
   margin-right: 0;
 }
 
+#footer-top .btn_social:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
 #footer-top .btn_social i {
   position: absolute;
   top: 50%;
@@ -80,6 +85,9 @@ body {
   font-size: 20px;
 }
 
+#footer-top .btn_social:hover i {
+  color: #2C3E50;
+}
 
 /* START HEADER */
 
@@ -306,3 +314,19 @@ body {
 /* footer bottom */
 
 /* END FOOTER */
+
+@media screen and (max-width: 991px) {
+
+  .jumbotron_custom h1 {
+    font-size: 40px;
+  }
+
+  #about [class*="col-"]:not(:last-child) p {
+    margin-bottom: 30px;
+  }
+
+  #footer-top [class*="col-"]:not(:first-child) h4 {
+    margin-top: 50px;
+  }
+
+}
