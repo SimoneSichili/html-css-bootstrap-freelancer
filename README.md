@@ -11,5 +11,5 @@
 
 
 ## Workflow
-Creating a replica of the Boostrap freelancer start theme using Bootstrap 3.  
+Creating a replica of the Boostrap freelancer start theme using Bootstrap 3, fully responsive with framework breakpoints.  
 Original site: https://startbootstrap.com/previews/freelancer
